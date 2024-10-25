@@ -1,0 +1,53 @@
+body{
+box-sizing: border-box;
+margin: 0;
+height: 0;
+background-color: rgb(48, 4, 28);
+
+}
+ul{
+    color: rgba(16, 9, 9, 0.813);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor:pointer"
+}
+a{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ca2020;
+    text-decoration: none;
+}
+
+.navbar{
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #c5b8b8;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidebutton{
+    background-color: #a56565;
+    font-size: 60px;
+    border-radius: 10px solid pink;
+padding: 50px;
+}
+
+span{
+
+    font-size: 50px;
+    
+}
+button{
+    background-color: transparent;
+    border: none;
+    margin-top:0px;
+    margin-right:0px;
+}
